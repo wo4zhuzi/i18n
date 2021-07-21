@@ -13,12 +13,8 @@ func TestAdd(t *testing.T) {
 
 	t.Log(str)
 
-	str1 := i18nClient.T("小博今年%d岁了", 18)
+	str1 := i18nClient.T("%s年欧洲杯冠军是%s", "2021", "Italy")
 
 	t.Log(str1)
-
-	str2 := i18nClient.T("%s年欧洲杯冠军是%s", "2021", "Italy")
-
-	t.Log(str2)
 
 }
