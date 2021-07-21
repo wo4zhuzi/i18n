@@ -9,7 +9,7 @@ func TestAdd(t *testing.T) {
 		t.Error("err")
 	}
 
-	str := i18nClient.T("人生最幸福的时期，是什么时候")
+	str := i18nClient.T("人生最幸福的时期，是什么时候？")
 
 	t.Log(str)
 
